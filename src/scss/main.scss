@@ -1,0 +1,10 @@
+$primary: blue;
+
+@mixin test {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
