@@ -28,9 +28,7 @@
   <!--nav e-->
   <!--main s-->
   <div class="main_banner">
-    <h1>브랜드 한 번에 비교하고 편리하게 창업하자!</h1>
-    <img src="../../assets/market.png" />
-    <div class="blue_bar"></div>
+    <div class="main_img"></div>
   </div>
   <div class="logo_slide">
     <Swiper
@@ -367,23 +365,15 @@ p {
 
   .main_banner {
     width: 100%;
-    height: 30%;
-    text-align: center;
-    background-color: rgb(226, 244, 255);
-
-    h1 {
-      font-size: 18px;
-      font-weight: 700;
-      padding-top: 60px;
-    }
-    img {
-      position: relative;
-      max-width: 60%;
-      bottom: -30px;
-    }
-    .blue_bar {
-      height: 10vh;
-      background-color: rgb(16, 92, 255);
+    height: 300px;
+    .main_img {
+      height: 300px;
+      background: url(../../assets/main_img3.jpg) no-repeat 30%;
+      background-size: cover;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
     }
   }
   .logo_slide {
@@ -576,15 +566,15 @@ p {
         }
       }
       li:nth-child(1) {
-        background-image: url(../../assets/point3_img_1.png);
+        background-image: url(../../assets/point3_img_1-opacity.png);
         background-size: cover;
       }
       li:nth-child(2) {
-        background-image: url(../../assets/point3_img_2.png);
+        background-image: url(../../assets/point3_img_2-opacity.png);
         background-size: cover;
       }
       li:nth-child(3) {
-        background-image: url(../../assets/point3_img_3.jpg);
+        background-image: url(../../assets/point3_img_3-opacity.jpg);
         background-size: cover;
       }
     }
@@ -606,7 +596,8 @@ p {
         font-size: 16px;
       }
       .sns {
-        width: 100%;
+        width: 90%;
+        margin: auto;
         height: 180px;
         display: flex;
         justify-content: center;
@@ -617,9 +608,9 @@ p {
           opacity: 1;
         }
         li {
-          width: 90%;
+          width: 100%;
           img {
-            width: 80%;
+            width: 90%;
           }
         }
       }
@@ -1263,27 +1254,21 @@ p {
     }
   }*/
   .main_banner {
-    height: 500px;
-    text-align: center;
-    background-color: rgb(226, 244, 255);
-    h1 {
-      font-size: 40px;
-      font-weight: 700;
-      padding-top: 60px;
-    }
-    img {
-      width: 450px;
-      position: relative;
-      bottom: -50px;
-    }
-    .blue_bar {
-      height: 100px;
-      background-color: rgb(16, 92, 255);
+    width: 100%;
+    height: 600px;
+    .main_img {
+      height: 600px;
+      background: url(../../assets/main_img3.jpg) no-repeat 50%;
+      background-size: cover;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
     }
   }
   .logo_slide {
     height: 100px;
-    margin-top: 130px;
+    margin-top: 50px;
     ul {
       display: flex;
       align-items: center;
